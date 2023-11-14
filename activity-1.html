@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,103 +8,161 @@
     <title>Activity 1</title>
 
     <style>
-        <!-- CSS reset -->
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
+        <!-- CSS reset 
+        -->
+        *
+        {
+        box-sizing:
+        border-box;
+        margin:
+        0;
+        padding:
+        0;
         }
-
-        html, body{
-            height: 100%;
-        }
-
-            /* Headings font */
-        h1, h2, h3, h4, h5, h6 {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        }
-
-        /* Body text font */
+        html,
         body {
-        font-family: Arial, sans-serif;
+        height:
+        100%;
+        }
+        /*
+        Headings
+        font
+        */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6
+        {
+        font-family:
+        "Helvetica
+        Neue",
+        Helvetica,
+        Arial,
+        sans-serif;
+        }
+        /*
+        Body
+        text
+        font
+        */
+        body
+        {
+        font-family:
+        Arial,
+        sans-serif;
+        }
+        .container
+        {
+        padding-bottom:
+        50px;
+        }
+        .angle
+        {
+        color:#7abdb5;
+        }
+        .tag
+        {
+        color:
+        #d04a3f;
+        }
+        .attr
+        {
+        color:
+        #a075b8;
+        }
+        .example-code
+        {
+        padding:
+        15px;
+        background-color:
+        #212121;
+        list-style-type:
+        none;
+        width:
+        500px;
+        }
+        .text
+        {
+        color:
+        white;
+        }
+        .indent
+        {
+        margin-left:
+        30px;
+        }
+        .space
+        {
+        margin-bottom:
+        25px;
+        }
+        .result-container
+        {
+        padding:
+        15px;
+        background-color:
+        #eeeeee;
+        width:
+        500px;
         }
 
-        .container {
-            padding-bottom: 50px;
-        }
-
-        .angle {
-            color:#7abdb5;
-        }
-
-        .tag {
-            color: #d04a3f;
-        }
-
-        .attr {
-            color: #a075b8;
-        }
-        
-        .example-code {
-            padding: 15px;
-            background-color: #212121;
-            list-style-type: none;
-            width: 500px;
-        }
-
-        .text {
-            color: white;
-        }
-
-        .indent {
-            margin-left: 30px;
-        }
-
-        .space {
-            margin-bottom: 25px;
-        }
-
-        .result-container {
-            padding: 15px;
-            background-color: #eeeeee;
-            width: 500px;
-        }
-        
     </style>
 </head>
+
 <body>
-    
+
     <div class="container">
         <h1>HTML - Basic Tags</h1>
-        
+
         <div>
             <h2>Heading Tags</h2>
             <p>Any document starts with a heading. You can use different sizes for your headings.</p>
-            <p>HTML also has six levels of headings, which use the elements &lt;h1&gt, &lt;h2&gt, &lt;h3&gt, &lt;h4&gt, &lt;h5&gt, and &lt;h6&gt.</p>
+            <p>HTML also has six levels of headings, which use the elements &lt;h1&gt, &lt;h2&gt, &lt;h3&gt, &lt;h4&gt,
+                &lt;h5&gt, and &lt;h6&gt.</p>
             <p>While displaying any heading, browser adds one line before and one line after that heading.</p>
         </div>
 
         <h3>Example</h3>
         <ul class="example-code">
-            <li><span class="angle">&lt;</span><span class="tag">!DOCTYPE</span><span class="attr"> html</span><span class="angle">&gt;</span></li>
-            <li class="space"><span class="angle">&lt;</span><span class="tag">html</span><span class="angle">&gt;</span></li>
+            <li><span class="angle">&lt;</span><span class="tag">!DOCTYPE</span><span class="attr"> html</span><span
+                    class="angle">&gt;</span></li>
+            <li class="space"><span class="angle">&lt;</span><span class="tag">html</span><span
+                    class="angle">&gt;</span></li>
             <li><span class="angle">&lt;</span><span class="tag">head</span><span class="angle">&gt;</span></li>
-            <li class="indent"><span class="angle">&lt;</span><span class="tag">title</span><span class="angle">&gt;</span><span class="text">Heading Example</span><span class="angle">&lt;</span><span class="tag">title</span><span class="angle">&gt;</span></li>
-            <li  class="space"><span class="angle">&lt;</span><span class="tag">head</span><span class="angle">&gt;</span></li>
+            <li class="indent"><span class="angle">&lt;</span><span class="tag">title</span><span
+                    class="angle">&gt;</span><span class="text">Heading Example</span><span
+                    class="angle">&lt;</span><span class="tag">title</span><span class="angle">&gt;</span></li>
+            <li class="space"><span class="angle">&lt;</span><span class="tag">head</span><span
+                    class="angle">&gt;</span></li>
 
 
             <li><span class="angle">&lt;</span><span class="tag">body</span><span class="angle">&gt;</span></li>
-            <li class="indent"><span class="angle">&lt;</span><span class="tag">h1</span><span class="angle">&gt;</span><span class="text">This is heading 1</span><span class="angle">&lt;</span><span class="tag">h1</span><span class="angle">&gt;</span></li>
-            <li class="indent"><span class="angle">&lt;</span><span class="tag">h2</span><span class="angle">&gt;</span><span class="text">This is heading 2</span><span class="angle">&lt;</span><span class="tag">h2</span><span class="angle">&gt;</span></li>
-            <li class="indent"><span class="angle">&lt;</span><span class="tag">h3</span><span class="angle">&gt;</span><span class="text">This is heading 3</span><span class="angle">&lt;</span><span class="tag">h3</span><span class="angle">&gt;</span></li>
-            <li class="indent"><span class="angle">&lt;</span><span class="tag">h4</span><span class="angle">&gt;</span><span class="text">This is heading 4</span><span class="angle">&lt;</span><span class="tag">h4</span><span class="angle">&gt;</span></li>
-            <li class="indent"><span class="angle">&lt;</span><span class="tag">h5</span><span class="angle">&gt;</span><span class="text">This is heading 5</span><span class="angle">&lt;</span><span class="tag">h5</span><span class="angle">&gt;</span></li>
-            <li class="indent"><span class="angle">&lt;</span><span class="tag">h6</span><span class="angle">&gt;</span><span class="text">This is heading 6</span><span class="angle">&lt;</span><span class="tag">h6</span><span class="angle">&gt;</span></li>
+            <li class="indent"><span class="angle">&lt;</span><span class="tag">h1</span><span
+                    class="angle">&gt;</span><span class="text">This is heading 1</span><span
+                    class="angle">&lt;</span><span class="tag">h1</span><span class="angle">&gt;</span></li>
+            <li class="indent"><span class="angle">&lt;</span><span class="tag">h2</span><span
+                    class="angle">&gt;</span><span class="text">This is heading 2</span><span
+                    class="angle">&lt;</span><span class="tag">h2</span><span class="angle">&gt;</span></li>
+            <li class="indent"><span class="angle">&lt;</span><span class="tag">h3</span><span
+                    class="angle">&gt;</span><span class="text">This is heading 3</span><span
+                    class="angle">&lt;</span><span class="tag">h3</span><span class="angle">&gt;</span></li>
+            <li class="indent"><span class="angle">&lt;</span><span class="tag">h4</span><span
+                    class="angle">&gt;</span><span class="text">This is heading 4</span><span
+                    class="angle">&lt;</span><span class="tag">h4</span><span class="angle">&gt;</span></li>
+            <li class="indent"><span class="angle">&lt;</span><span class="tag">h5</span><span
+                    class="angle">&gt;</span><span class="text">This is heading 5</span><span
+                    class="angle">&lt;</span><span class="tag">h5</span><span class="angle">&gt;</span></li>
+            <li class="indent"><span class="angle">&lt;</span><span class="tag">h6</span><span
+                    class="angle">&gt;</span><span class="text">This is heading 6</span><span
+                    class="angle">&lt;</span><span class="tag">h6</span><span class="angle">&gt;</span></li>
 
-            <li class="space"><span class="angle">&lt;/</span><span class="tag">body</span><span class="angle">&gt;</span></li>
+            <li class="space"><span class="angle">&lt;/</span><span class="tag">body</span><span
+                    class="angle">&gt;</span></li>
             <li><span class="angle">&lt;/</span><span class="tag">html</span><span class="angle">&gt;</span></li>
         </ul>
-        
+
         <p>this will produce the following result -</p>
         <div class="result-container">
             <h1>This is heading 1</h1>
@@ -123,19 +182,31 @@
         </div>
 
         <ul class="example-code">
-            <li><span class="angle">&lt;</span><span class="tag">!DOCTYPE</span><span class="attr"> html</span><span class="angle">&gt;</span></li>
-            <li class="space"><span class="angle">&lt;</span><span class="tag">html</span><span class="angle">&gt;</span></li>
+            <li><span class="angle">&lt;</span><span class="tag">!DOCTYPE</span><span class="attr"> html</span><span
+                    class="angle">&gt;</span></li>
+            <li class="space"><span class="angle">&lt;</span><span class="tag">html</span><span
+                    class="angle">&gt;</span></li>
             <li><span class="angle">&lt;</span><span class="tag">head</span><span class="angle">&gt;</span></li>
-            <li class="indent"><span class="angle">&lt;</span><span class="tag">title</span><span class="angle">&gt;</span><span class="text">Paragraph Example</span><span class="angle">&lt;</span><span class="tag">title</span><span class="angle">&gt;</span></li>
-            <li  class="space"><span class="angle">&lt;</span><span class="tag">head</span><span class="angle">&gt;</span></li>
+            <li class="indent"><span class="angle">&lt;</span><span class="tag">title</span><span
+                    class="angle">&gt;</span><span class="text">Paragraph Example</span><span
+                    class="angle">&lt;</span><span class="tag">title</span><span class="angle">&gt;</span></li>
+            <li class="space"><span class="angle">&lt;</span><span class="tag">head</span><span
+                    class="angle">&gt;</span></li>
 
 
             <li><span class="angle">&lt;</span><span class="tag">body</span><span class="angle">&gt;</span></li>
-            <li class="indent"><span class="angle">&lt;</span><span class="tag">p</span><span class="angle">&gt;</span><span class="text">Here is a first paragraph of text.</span><span class="angle">&lt;</span><span class="tag">p</span><span class="angle">&gt;</span></li>
-            <li class="indent"><span class="angle">&lt;</span><span class="tag">p</span><span class="angle">&gt;</span><span class="text">Here is a second paragraph of text.</span><span class="angle">&lt;</span><span class="tag">p</span><span class="angle">&gt;</span></li>
-            <li class="indent"><span class="angle">&lt;</span><span class="tag">p</span><span class="angle">&gt;</span><span class="text">Here is a third paragraph of text.</span><span class="angle">&lt;</span><span class="tag">p</span><span class="angle">&gt;</span></li>
+            <li class="indent"><span class="angle">&lt;</span><span class="tag">p</span><span
+                    class="angle">&gt;</span><span class="text">Here is a first paragraph of text.</span><span
+                    class="angle">&lt;</span><span class="tag">p</span><span class="angle">&gt;</span></li>
+            <li class="indent"><span class="angle">&lt;</span><span class="tag">p</span><span
+                    class="angle">&gt;</span><span class="text">Here is a second paragraph of text.</span><span
+                    class="angle">&lt;</span><span class="tag">p</span><span class="angle">&gt;</span></li>
+            <li class="indent"><span class="angle">&lt;</span><span class="tag">p</span><span
+                    class="angle">&gt;</span><span class="text">Here is a third paragraph of text.</span><span
+                    class="angle">&lt;</span><span class="tag">p</span><span class="angle">&gt;</span></li>
 
-            <li class="space"><span class="angle">&lt;/</span><span class="tag">body</span><span class="angle">&gt;</span></li>
+            <li class="space"><span class="angle">&lt;/</span><span class="tag">body</span><span
+                    class="angle">&gt;</span></li>
             <li><span class="angle">&lt;/</span><span class="tag">html</span><span class="angle">&gt;</span></li>
         </ul>
 
@@ -150,4 +221,5 @@
 
 
 </body>
+
 </html>
